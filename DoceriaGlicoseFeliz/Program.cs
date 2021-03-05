@@ -34,25 +34,27 @@ namespace DoceriaGlicoseFeliz
             //LÓGICA
             Console.WriteLine("Bem vindo a Doceria Glicose Feliz!");
             string itemEscolhido = "";
-            ExibirMenuPrincipal("ver nosso catálogo de doces?");
-            string continuarComprando = "s";
-            while (continuarComprando == "s")
+            ExibirMenuPrincipal("ver nosso catálogo de doces?", itemEscolhido, catalogo);
+            bool continuarComprando = true;
+            List<Carrinho> carrinho = new List<Carrinho>();
+            while (continuarComprando)
             {
                 double precoDoProduto = 0;
                 Console.WriteLine("Qual a quatidade do produto?");
                 int qntProduto = Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
-                List<Carrinho> carrinho = new List<Carrinho>();
                 carrinho.Add(new Carrinho(itemEscolhido, precoDoProduto, qntProduto));
                 Console.WriteLine("Item adicionado ao carrinho.");
                 Console.WriteLine("Deseja continuar comprando?");
                 Console.WriteLine("s > para sim");
                 Console.WriteLine("n > para não");
-                continuarComprando = (Console.ReadLine());
+                string seContinuarComprando = (Console.ReadLine());
+                _ = seContinuarComprando == "s" ? continuarComprando = true : continuarComprando = false;
                 switch (continuarComprando)
                 {
-                    case "s":                    
-                        ExibirMenuPrincipal("ver novamente nosso catálogo?");
+                    case true:
+                        
+                        ExibirMenuPrincipal("ver novamente nosso catálogo?", itemEscolhido, catalogo);
                         break;
                     default:
                         if (qntProduto <= 1)
@@ -65,16 +67,16 @@ namespace DoceriaGlicoseFeliz
                         }
                         break;
                 }
-                
+
             }
-           
 
 
 
+        }
 
 
             //FUNÇÕES
-            void ExibirMenuPrincipal(string message)
+            static void ExibirMenuPrincipal(string message, string item, List<Produto> produto)
             {
                 Console.WriteLine($"Deseja {message}?");
                 Console.WriteLine("Para sim, digite > 1");
@@ -82,18 +84,18 @@ namespace DoceriaGlicoseFeliz
                 int continuar = Convert.ToInt32(Console.ReadLine());
                 if (continuar == 1)
                 {
-                    foreach (Produto todoCatalogo in catalogo)
+                    foreach (Produto todoCatalogo in produto)
                     {
                         Console.WriteLine(todoCatalogo.ExibirProdutos());
                     }
 
                     Console.WriteLine("Qual de nossos produtos você deseja comprar?");
-                    itemEscolhido = Console.ReadLine();
+                    item = Console.ReadLine();
                 }
                 else if (continuar == 2)
                 {
                     Console.WriteLine("Qual de nossos produtos você deseja comprar?");
-                    itemEscolhido = Console.ReadLine();
+                    item = Console.ReadLine();
                 }
                     else
                 {
@@ -101,7 +103,7 @@ namespace DoceriaGlicoseFeliz
                 }
             }
 
-            void MostrarErro()
+            static void MostrarErro()
             {
                 Console.WriteLine("Opção que você digitou não existe.");
                 Console.WriteLine("Digite uma opção válida");
@@ -117,7 +119,7 @@ namespace DoceriaGlicoseFeliz
                 
                 
             
-        }
+        
 
         
 

@@ -17,7 +17,7 @@ namespace DoceriaGlicoseFeliz
                 new Produto("Sonho", 3.1),
                 new Produto("Pé de Moloque", 2.9),
                 new Produto("Brigadeiro", 2.5),
-                new Produto("Cajusinho", 2.5),
+                new Produto("Cajuzinho", 2.5),
                 new Produto("Beijinho", 2.2),
                 new Produto("Jujuba", 2.2)
             };

@@ -2,18 +2,21 @@
 {
     public class Produto
     {
-        public string NomeProduto { get; set; }
-        public double PrecoProduto { get; set; }
+        public string Nome { get; set; }
+        public double Preco { get; set; }
+        public int Id { get; set; }
+        public int Quantidade { get; set; }
 
-        public Produto(string nome, double preco)
+        public Produto(int id, string nome, double preco)
         {
-            NomeProduto = nome;
-            PrecoProduto = preco;
+            Id = id;
+            Nome = nome;
+            Preco = preco;
         }
 
         public string ExibirProdutos()
         {
-            return this.NomeProduto;
+            return $"{Id} - {Nome}";
         }
     }
 }

@@ -11,3 +11,16 @@ C:\Users\Marcelo\Desktop\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGl
 C:\Users\Marcelo\Desktop\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.dll
 C:\Users\Marcelo\Desktop\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.pdb
 C:\Users\Marcelo\Desktop\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.genruntimeconfig.cache
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\bin\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.exe
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\bin\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.deps.json
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\bin\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.runtimeconfig.json
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\bin\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.runtimeconfig.dev.json
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\bin\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.dll
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\bin\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.pdb
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.csprojAssemblyReference.cache
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.AssemblyInfoInputs.cache
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.AssemblyInfo.cs
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.csproj.CoreCompileInputs.cache
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.dll
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.pdb
+C:\Users\mlsan\Desktop\Programação\Repositórios para treino\DoceriaGlicoseFeliz\DoceriaGlicoseFeliz\obj\Debug\netcoreapp3.1\DoceriaGlicoseFeliz.genruntimeconfig.cache

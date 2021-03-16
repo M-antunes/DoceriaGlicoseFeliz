@@ -1,12 +1,20 @@
-﻿namespace DoceriaGlicoseFeliz
+﻿using System;
+
+namespace DoceriaGlicoseFeliz
 {
     public class Funcionario
     {
-        public string NomeFuncionario { get; set; }
-
-        public Funcionario(string nome)
+        public string Nome { get; set; }
+        public int Id { get; set; }
+        public Funcionario(string nome, int id)
         {
-            NomeFuncionario = nome;
+            Nome = nome;
+            Id = id;
         }
-    }
+       
+
+
+}
+
+   
 }
